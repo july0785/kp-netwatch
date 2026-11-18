@@ -1,0 +1,1 @@
+{"Status": 0, "TC": false, "RD": true, "RA": true, "AD": false, "CD": false, "Question": [{"name": "kp", "type": 6}], "Answer": [{"name": "kp", "type": 6, "TTL": 43200, "data": "ns1.kptc.kp. root.kptc.kp. 2026102403 28800 86400 1209600 86400"}]}

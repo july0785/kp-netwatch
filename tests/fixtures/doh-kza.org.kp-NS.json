@@ -1,0 +1,1 @@
+{"Status": 0, "TC": false, "RD": true, "RA": true, "AD": false, "CD": false, "Question": [{"name": "kza.org.kp", "type": 2}], "Answer": [{"name": "kza.org.kp", "type": 2, "TTL": 43200, "data": "ns1.kza.org.kp."}, {"name": "kza.org.kp", "type": 2, "TTL": 43200, "data": "ns2.kza.org.kp."}]}
