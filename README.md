@@ -5,6 +5,15 @@ A daily, passive snapshot of North Korea's public internet footprint: BGP-announ
 Almost nothing about this footprint changes often. According to [Wikipedia](https://en.wikipedia.org/wiki/Internet_in_North_Korea) it has been four /24 prefixes announced by AS131279, with traffic going out through China and, since 2017, also Russia. A prefix disappearing, a new certificate, or a nameserver moving is worth a look because the baseline is so quiet. These are indicators for further research, not conclusions.
 
 <!-- status:start -->
+| item | value |
+| --- | --- |
+| last run | 2026-11-18 16:48 UTC |
+| ASNs | 1 |
+| prefixes announced | 4 |
+| certificates in CT | 47 (0 unexpired) |
+| names tracked | 15 |
+| names resolving | 10 |
+| source status | bgp ok, ct ok, dns ok |
 <!-- status:end -->
 
 ## Method
