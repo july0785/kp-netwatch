@@ -744,10 +744,6 @@
       },
       "kp": {
         "records": {
-          "NS": [
-            "ns1.kptc.kp",
-            "ns2.kptc.kp"
-          ],
           "SOA": [
             "ns1.kptc.kp root.kptc.kp 2026102403 28800 86400 1209600 86400"
           ]
@@ -757,7 +753,7 @@
         ],
         "status": "NOERROR",
         "unanswered": [
-          "MX"
+          "NS"
         ]
       },
       "kza.org.kp": {
@@ -797,9 +793,7 @@
           "seed"
         ],
         "status": "NOERROR",
-        "unanswered": [
-          "MX"
-        ]
+        "unanswered": []
       },
       "ns1.kptc.kp": {
         "records": {
@@ -811,10 +805,7 @@
           "seed"
         ],
         "status": "NOERROR",
-        "unanswered": [
-          "AAAA",
-          "NS"
-        ]
+        "unanswered": []
       },
       "ns2.kptc.kp": {
         "records": {
@@ -826,7 +817,10 @@
           "seed"
         ],
         "status": "NOERROR",
-        "unanswered": []
+        "unanswered": [
+          "AAAA",
+          "SOA"
+        ]
       },
       "portal.net.kp": {
         "records": {
@@ -846,41 +840,36 @@
           "seed"
         ],
         "status": "NOERROR",
-        "unanswered": [
-          "AAAA"
-        ]
+        "unanswered": []
       },
       "rodong.rep.kp": {
         "records": {
           "A": [
             "175.45.176.68",
             "175.45.177.8"
-          ],
-          "NS": [
-            "ns1.rodong.rep.kp",
-            "ns2.rodong.rep.kp"
-          ],
-          "SOA": [
-            "ns1.rodong.rep.kp root.rodong.rep.kp 2012022310 28800 7200 1209600 3600"
           ]
         },
         "sources": [
           "seed"
         ],
         "status": "NOERROR",
-        "unanswered": []
+        "unanswered": [
+          "AAAA",
+          "NS",
+          "SOA"
+        ]
       },
       "smtp.star-co.net.kp": {
-        "records": {
-          "A": [
-            "175.45.178.56"
-          ]
-        },
+        "records": {},
         "sources": [
           "ct"
         ],
         "status": "NOERROR",
-        "unanswered": []
+        "unanswered": [
+          "A",
+          "AAAA",
+          "NS"
+        ]
       },
       "smtp.star.net.kp": {
         "records": {},
@@ -888,7 +877,12 @@
           "ct"
         ],
         "status": "NXDOMAIN",
-        "unanswered": []
+        "unanswered": [
+          "A",
+          "AAAA",
+          "NS",
+          "SOA"
+        ]
       },
       "sns.star.net.kp": {
         "records": {},
@@ -896,7 +890,9 @@
           "ct"
         ],
         "status": "NXDOMAIN",
-        "unanswered": []
+        "unanswered": [
+          "MX"
+        ]
       },
       "star-co.net.kp": {
         "records": {
@@ -905,9 +901,8 @@
             "20 smtp1.star-co.net.kp",
             "30 mail.star-co.net.kp"
           ],
-          "NS": [
-            "ns1.star-co.net.kp",
-            "ns2.star-co.net.kp"
+          "SOA": [
+            "ns1.star-co.net.kp root.star-co.net.kp 2026110109 28800 7200 1209600 3600"
           ]
         },
         "sources": [
@@ -916,7 +911,7 @@
         ],
         "status": "NOERROR",
         "unanswered": [
-          "SOA"
+          "NS"
         ]
       },
       "star.net.kp": {
@@ -958,7 +953,10 @@
           "ct"
         ],
         "status": "NOERROR",
-        "unanswered": []
+        "unanswered": [
+          "AAAA",
+          "NS"
+        ]
       }
     },
     "resolvers": [
@@ -967,14 +965,14 @@
     ],
     "status": "ok"
   },
-  "generated_at": "2026-11-18T16:48:18Z",
+  "generated_at": "2026-11-18T17:12:23Z",
   "schema": 1,
   "summary": {
     "asns": 1,
     "certs": 47,
     "certs_unexpired": 0,
     "domains": 15,
-    "domains_resolving": 10,
+    "domains_resolving": 9,
     "prefixes_announced": 4,
     "sources": {
       "bgp": "ok",
