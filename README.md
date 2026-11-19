@@ -7,7 +7,7 @@ Almost nothing about this footprint changes often. According to [Wikipedia](http
 <!-- status:start -->
 | item | value |
 | --- | --- |
-| last run | 2026-11-18 17:12 UTC |
+| last run | 2026-11-19 11:35 UTC |
 | ASNs | 1 |
 | prefixes announced | 4 |
 | certificates in CT | 47 (0 unexpired) |
