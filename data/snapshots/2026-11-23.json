@@ -1,0 +1,335 @@
+{
+  "bgp": {
+    "asns": {
+      "131279": {
+        "announced": true,
+        "errors": {},
+        "first_seen": "2010-09-17T08:00:00",
+        "holder": "STAR-KP - Ryugyong-dong",
+        "neighbours": [
+          {
+            "asn": 20485,
+            "type": "left"
+          },
+          {
+            "asn": 134544,
+            "type": "left"
+          }
+        ],
+        "observed_neighbours": 2,
+        "prefixes": [
+          "175.45.176.0/24",
+          "175.45.177.0/24",
+          "175.45.178.0/24",
+          "175.45.179.0/24"
+        ],
+        "status": "ok",
+        "visibility": {
+          "v4": {
+            "seeing": 322,
+            "total": 322
+          },
+          "v6": {
+            "seeing": 0,
+            "total": 312
+          }
+        }
+      }
+    },
+    "discovery": {
+      "asn": [
+        "131279"
+      ],
+      "fallback": false,
+      "ipv4": [
+        "175.45.176.0/22"
+      ],
+      "ipv6": [],
+      "query_time": "2026-11-21T00:00:00",
+      "source": "country-resource-list",
+      "status": "ok"
+    },
+    "prefixes": {
+      "175.45.176.0/24": {
+        "asn": "131279",
+        "origins": [
+          131279
+        ],
+        "status": "ok",
+        "visibility": {
+          "seeing": 322,
+          "total": 322
+        }
+      },
+      "175.45.177.0/24": {
+        "asn": "131279",
+        "origins": [
+          131279
+        ],
+        "status": "ok",
+        "visibility": {
+          "seeing": 322,
+          "total": 322
+        }
+      },
+      "175.45.178.0/24": {
+        "asn": "131279",
+        "origins": [
+          131279
+        ],
+        "status": "ok",
+        "visibility": {
+          "seeing": 322,
+          "total": 322
+        }
+      },
+      "175.45.179.0/24": {
+        "asn": "131279",
+        "origins": [
+          131279
+        ],
+        "status": "ok",
+        "visibility": {
+          "seeing": 322,
+          "total": 322
+        }
+      }
+    },
+    "status": "ok"
+  },
+  "ct": {
+    "certs": [],
+    "queries": {
+      "%.aca.kp": {
+        "error": "HTTP 502",
+        "status": "error"
+      },
+      "%.com.kp": {
+        "error": "HTTP 502",
+        "status": "error"
+      },
+      "%.edu.kp": {
+        "error": "HTTP 502",
+        "status": "error"
+      },
+      "%.gov.kp": {
+        "error": "HTTP 502",
+        "status": "error"
+      },
+      "%.law.kp": {
+        "error": "HTTP 502",
+        "status": "error"
+      },
+      "%.net.kp": {
+        "error": "HTTP 502",
+        "status": "error"
+      },
+      "%.org.kp": {
+        "error": "HTTP 502",
+        "status": "error"
+      },
+      "%.rep.kp": {
+        "error": "HTTP 502",
+        "status": "error"
+      },
+      "%.sca.kp": {
+        "error": "HTTP 502",
+        "status": "error"
+      },
+      "%.tra.kp": {
+        "error": "HTTP 502",
+        "status": "error"
+      }
+    },
+    "status": "error"
+  },
+  "dns": {
+    "domains": {
+      "kcna.kp": {
+        "records": {
+          "A": [
+            "175.45.176.71",
+            "175.45.177.1"
+          ],
+          "NS": [
+            "ns1.kcna.kp",
+            "ns2.kcna.kp"
+          ],
+          "SOA": [
+            "ns1.kcna.kp root.kcna.kp 2012022310 28800 7200 1209600 3600"
+          ]
+        },
+        "sources": [
+          "seed"
+        ],
+        "status": "NOERROR",
+        "unanswered": []
+      },
+      "kp": {
+        "records": {
+          "SOA": [
+            "ns1.kptc.kp root.kptc.kp 2026102403 28800 86400 1209600 86400"
+          ]
+        },
+        "sources": [
+          "seed"
+        ],
+        "status": "NOERROR",
+        "unanswered": [
+          "A",
+          "MX",
+          "NS"
+        ]
+      },
+      "kza.org.kp": {
+        "records": {},
+        "sources": [
+          "seed"
+        ],
+        "status": "SERVFAIL",
+        "unanswered": [
+          "A",
+          "AAAA",
+          "MX",
+          "NS",
+          "SOA"
+        ]
+      },
+      "naenara.com.kp": {
+        "records": {
+          "A": [
+            "175.45.176.91"
+          ],
+          "NS": [
+            "ns1.naenara.com.kp",
+            "ns2.naenara.com.kp"
+          ]
+        },
+        "sources": [
+          "seed"
+        ],
+        "status": "NOERROR",
+        "unanswered": [
+          "AAAA",
+          "SOA"
+        ]
+      },
+      "ns1.kptc.kp": {
+        "records": {
+          "A": [
+            "175.45.176.15"
+          ]
+        },
+        "sources": [
+          "seed"
+        ],
+        "status": "NOERROR",
+        "unanswered": [
+          "AAAA"
+        ]
+      },
+      "ns2.kptc.kp": {
+        "records": {
+          "A": [
+            "175.45.176.16"
+          ]
+        },
+        "sources": [
+          "seed"
+        ],
+        "status": "NOERROR",
+        "unanswered": [
+          "MX",
+          "SOA"
+        ]
+      },
+      "portal.net.kp": {
+        "records": {
+          "A": [
+            "175.45.178.170"
+          ],
+          "NS": [
+            "ns1.portal.net.kp",
+            "ns2.portal.net.kp"
+          ]
+        },
+        "sources": [
+          "seed"
+        ],
+        "status": "NOERROR",
+        "unanswered": [
+          "AAAA",
+          "MX",
+          "SOA"
+        ]
+      },
+      "rodong.rep.kp": {
+        "records": {},
+        "sources": [
+          "seed"
+        ],
+        "status": "NOERROR",
+        "unanswered": [
+          "A",
+          "NS",
+          "SOA"
+        ]
+      },
+      "star-co.net.kp": {
+        "records": {
+          "MX": [
+            "10 smtp.star-co.net.kp",
+            "20 smtp1.star-co.net.kp",
+            "30 mail.star-co.net.kp"
+          ]
+        },
+        "sources": [
+          "seed"
+        ],
+        "status": "NOERROR",
+        "unanswered": [
+          "A",
+          "NS",
+          "SOA"
+        ]
+      },
+      "star.net.kp": {
+        "records": {
+          "NS": [
+            "ns1.star.net.kp",
+            "ns2.star.net.kp"
+          ]
+        },
+        "sources": [
+          "seed"
+        ],
+        "status": "NOERROR",
+        "unanswered": [
+          "AAAA",
+          "SOA"
+        ]
+      }
+    },
+    "resolvers": [
+      "cloudflare-dns.com",
+      "dns.google"
+    ],
+    "status": "ok"
+  },
+  "generated_at": "2026-11-23T12:31:35Z",
+  "schema": 1,
+  "summary": {
+    "asns": 1,
+    "certs": 0,
+    "certs_unexpired": 0,
+    "domains": 10,
+    "domains_resolving": 5,
+    "prefixes_announced": 4,
+    "sources": {
+      "bgp": "ok",
+      "ct": "error",
+      "dns": "ok"
+    }
+  },
+  "tool": "kp-netwatch/0.1"
+}
