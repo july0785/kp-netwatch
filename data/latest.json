@@ -31,7 +31,7 @@
           },
           "v6": {
             "seeing": 0,
-            "total": 312
+            "total": 313
           }
         }
       }
@@ -45,7 +45,7 @@
         "175.45.176.0/22"
       ],
       "ipv6": [],
-      "query_time": "2026-11-21T00:00:00",
+      "query_time": "2026-11-22T00:00:00",
       "source": "country-resource-list",
       "status": "ok"
     },
@@ -98,50 +98,627 @@
     "status": "ok"
   },
   "ct": {
-    "certs": [],
+    "certs": [
+      {
+        "common_name": "smtp.star-co.net.kp",
+        "entry_timestamp": null,
+        "id": 17552846,
+        "issuer": "C=IL, O=StartCom Ltd., OU=StartCom Certification Authority, CN=StartCom Class 1 DV Server CA",
+        "names": [
+          "smtp.star-co.net.kp"
+        ],
+        "not_after": "2017-04-29T06:13:08",
+        "not_before": "2016-04-29T06:13:08",
+        "serial": "2f2d348556356665721f6398eb4a79ae"
+      },
+      {
+        "common_name": "smtp.star-co.net.kp",
+        "entry_timestamp": null,
+        "id": 17552903,
+        "issuer": "C=IL, O=StartCom Ltd., OU=StartCom Certification Authority, CN=StartCom Class 1 DV Server CA",
+        "names": [
+          "smtp.star-co.net.kp"
+        ],
+        "not_after": "2017-04-29T05:58:27",
+        "not_before": "2016-04-29T05:58:27",
+        "serial": "1088cab487751071a03a1ed75224ce25"
+      },
+      {
+        "common_name": "www.portal.net.kp",
+        "entry_timestamp": null,
+        "id": 22972105,
+        "issuer": "C=IL, O=StartCom Ltd., OU=StartCom Certification Authority, CN=StartCom Class 1 DV Server CA",
+        "names": [
+          "www.portal.net.kp"
+        ],
+        "not_after": "2017-06-24T02:51:10",
+        "not_before": "2016-06-24T02:51:10",
+        "serial": "428766851cacec7d9165ab430d1a0bda"
+      },
+      {
+        "common_name": "portal.net.kp",
+        "entry_timestamp": null,
+        "id": 85218648,
+        "issuer": "C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3",
+        "names": [
+          "portal.net.kp"
+        ],
+        "not_after": "2017-05-07T06:29:00",
+        "not_before": "2017-02-06T06:29:00",
+        "serial": "034ef58c5775de3523db166b4b8677b459b8"
+      },
+      {
+        "common_name": "portal.net.kp",
+        "entry_timestamp": null,
+        "id": 85226230,
+        "issuer": "C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3",
+        "names": [
+          "portal.net.kp"
+        ],
+        "not_after": "2017-05-07T06:46:00",
+        "not_before": "2017-02-06T06:46:00",
+        "serial": "03960be121806f0c3260b6b56f59abcdd1aa"
+      },
+      {
+        "common_name": "webmail.star.net.kp",
+        "entry_timestamp": null,
+        "id": 136710416,
+        "issuer": "C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3",
+        "names": [
+          "webmail.star.net.kp"
+        ],
+        "not_after": "2017-08-10T06:47:00",
+        "not_before": "2017-05-12T06:47:00",
+        "serial": "03dd731542fd0e46bbc97ac17714d307c640"
+      },
+      {
+        "common_name": "portal.net.kp",
+        "entry_timestamp": null,
+        "id": 136715249,
+        "issuer": "C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3",
+        "names": [
+          "portal.net.kp"
+        ],
+        "not_after": "2017-08-10T07:04:00",
+        "not_before": "2017-05-12T07:04:00",
+        "serial": "03613516194efe2730a845b34833607b1433"
+      },
+      {
+        "common_name": "smtp.star.net.kp",
+        "entry_timestamp": null,
+        "id": 319692004,
+        "issuer": "C=IL, O=StartCom Ltd., OU=StartCom Certification Authority, CN=StartCom Class 1 DV Server CA",
+        "names": [
+          "smtp.star.net.kp"
+        ],
+        "not_after": "2017-02-04T06:48:33",
+        "not_before": "2016-02-04T06:48:33",
+        "serial": "6ae14d055799e68adb2a7873702283ca"
+      },
+      {
+        "common_name": "smtp.star-co.net.kp",
+        "entry_timestamp": null,
+        "id": 320219547,
+        "issuer": "C=IL, O=StartCom Ltd., OU=StartCom Certification Authority, CN=StartCom Class 1 DV Server CA",
+        "names": [
+          "smtp.star-co.net.kp"
+        ],
+        "not_after": "2017-04-29T05:58:27",
+        "not_before": "2016-04-29T05:58:27",
+        "serial": "1088cab487751071a03a1ed75224ce25"
+      },
+      {
+        "common_name": "portal.net.kp",
+        "entry_timestamp": null,
+        "id": 929010438,
+        "issuer": "C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3",
+        "names": [
+          "portal.net.kp"
+        ],
+        "not_after": "2019-02-06T07:47:26",
+        "not_before": "2018-11-08T07:47:26",
+        "serial": "03154884604bc4e35726ecdecf253dc534e0"
+      },
+      {
+        "common_name": "portal.net.kp",
+        "entry_timestamp": null,
+        "id": 929130491,
+        "issuer": "C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3",
+        "names": [
+          "portal.net.kp"
+        ],
+        "not_after": "2019-02-06T07:47:26",
+        "not_before": "2018-11-08T07:47:26",
+        "serial": "03154884604bc4e35726ecdecf253dc534e0"
+      },
+      {
+        "common_name": "sns.star.net.kp",
+        "entry_timestamp": null,
+        "id": 948281166,
+        "issuer": "C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3",
+        "names": [
+          "sns.star.net.kp"
+        ],
+        "not_after": "2019-02-13T08:39:10",
+        "not_before": "2018-11-15T08:39:10",
+        "serial": "03816a13961591651bc770393bfce706590d"
+      },
+      {
+        "common_name": "sns.star.net.kp",
+        "entry_timestamp": null,
+        "id": 948281333,
+        "issuer": "C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3",
+        "names": [
+          "sns.star.net.kp"
+        ],
+        "not_after": "2019-02-13T08:39:10",
+        "not_before": "2018-11-15T08:39:10",
+        "serial": "03816a13961591651bc770393bfce706590d"
+      },
+      {
+        "common_name": "sns.star.net.kp",
+        "entry_timestamp": null,
+        "id": 1165866197,
+        "issuer": "C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3",
+        "names": [
+          "sns.star.net.kp"
+        ],
+        "not_after": "2019-05-02T23:43:24",
+        "not_before": "2019-02-01T23:43:24",
+        "serial": "0345be3b6dcd46b700f4b1fdccc08cfb2019"
+      },
+      {
+        "common_name": "sns.star.net.kp",
+        "entry_timestamp": null,
+        "id": 1165867146,
+        "issuer": "C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3",
+        "names": [
+          "sns.star.net.kp"
+        ],
+        "not_after": "2019-05-02T23:43:24",
+        "not_before": "2019-02-01T23:43:24",
+        "serial": "0345be3b6dcd46b700f4b1fdccc08cfb2019"
+      },
+      {
+        "common_name": "portal.net.kp",
+        "entry_timestamp": null,
+        "id": 1165872376,
+        "issuer": "C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3",
+        "names": [
+          "portal.net.kp"
+        ],
+        "not_after": "2019-05-02T23:45:41",
+        "not_before": "2019-02-01T23:45:41",
+        "serial": "03c402bca6352f0d1509ff011f35c996ed16"
+      },
+      {
+        "common_name": "portal.net.kp",
+        "entry_timestamp": null,
+        "id": 1165874270,
+        "issuer": "C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3",
+        "names": [
+          "portal.net.kp"
+        ],
+        "not_after": "2019-05-02T23:45:41",
+        "not_before": "2019-02-01T23:45:41",
+        "serial": "03c402bca6352f0d1509ff011f35c996ed16"
+      },
+      {
+        "common_name": "kza.org.kp",
+        "entry_timestamp": null,
+        "id": 19959911454,
+        "issuer": "C=US, O=Let's Encrypt, CN=E6",
+        "names": [
+          "kza.org.kp"
+        ],
+        "not_after": "2025-10-26T08:15:16",
+        "not_before": "2025-07-28T08:15:17",
+        "serial": "06376a500372b971dc996287d1d24591398d"
+      },
+      {
+        "common_name": "kza.org.kp",
+        "entry_timestamp": null,
+        "id": 19959911511,
+        "issuer": "C=US, O=Let's Encrypt, CN=E6",
+        "names": [
+          "kza.org.kp"
+        ],
+        "not_after": "2025-10-26T08:15:16",
+        "not_before": "2025-07-28T08:15:17",
+        "serial": "06376a500372b971dc996287d1d24591398d"
+      },
+      {
+        "common_name": "kza.org.kp",
+        "entry_timestamp": null,
+        "id": 20004249831,
+        "issuer": "C=US, O=Let's Encrypt, CN=E6",
+        "names": [
+          "kza.org.kp"
+        ],
+        "not_after": "2025-10-28T07:20:33",
+        "not_before": "2025-07-30T07:20:34",
+        "serial": "050521119047446ab0dacb0d4914239c4892"
+      },
+      {
+        "common_name": "kza.org.kp",
+        "entry_timestamp": null,
+        "id": 20004269840,
+        "issuer": "C=US, O=Let's Encrypt, CN=E6",
+        "names": [
+          "kza.org.kp"
+        ],
+        "not_after": "2025-10-28T07:20:33",
+        "not_before": "2025-07-30T07:20:34",
+        "serial": "050521119047446ab0dacb0d4914239c4892"
+      },
+      {
+        "common_name": "kza.org.kp",
+        "entry_timestamp": null,
+        "id": 20004274198,
+        "issuer": "C=US, O=Let's Encrypt, CN=E6",
+        "names": [
+          "kza.org.kp"
+        ],
+        "not_after": "2025-10-28T07:21:46",
+        "not_before": "2025-07-30T07:21:47",
+        "serial": "0637a0809ee1fbfdd7a66984b4021a38d15c"
+      },
+      {
+        "common_name": "kza.org.kp",
+        "entry_timestamp": null,
+        "id": 20004291435,
+        "issuer": "C=US, O=Let's Encrypt, CN=E6",
+        "names": [
+          "kza.org.kp"
+        ],
+        "not_after": "2025-10-28T07:21:46",
+        "not_before": "2025-07-30T07:21:47",
+        "serial": "0637a0809ee1fbfdd7a66984b4021a38d15c"
+      },
+      {
+        "common_name": "kza.org.kp",
+        "entry_timestamp": null,
+        "id": 20004487544,
+        "issuer": "C=US, O=Let's Encrypt, CN=E5",
+        "names": [
+          "kza.org.kp"
+        ],
+        "not_after": "2025-10-28T07:33:06",
+        "not_before": "2025-07-30T07:33:07",
+        "serial": "0636e006ea18db20b103956bf358d5835340"
+      },
+      {
+        "common_name": "kza.org.kp",
+        "entry_timestamp": null,
+        "id": 20004487557,
+        "issuer": "C=US, O=Let's Encrypt, CN=E5",
+        "names": [
+          "kza.org.kp"
+        ],
+        "not_after": "2025-10-28T07:33:06",
+        "not_before": "2025-07-30T07:33:07",
+        "serial": "0636e006ea18db20b103956bf358d5835340"
+      },
+      {
+        "common_name": "kza.org.kp",
+        "entry_timestamp": null,
+        "id": 20004520901,
+        "issuer": "C=US, O=Let's Encrypt, CN=E5",
+        "names": [
+          "kza.org.kp"
+        ],
+        "not_after": "2025-10-28T07:34:44",
+        "not_before": "2025-07-30T07:34:45",
+        "serial": "06865a15eb6692ac0339c8fc5205988a0b03"
+      },
+      {
+        "common_name": "kza.org.kp",
+        "entry_timestamp": null,
+        "id": 20004523922,
+        "issuer": "C=US, O=Let's Encrypt, CN=E5",
+        "names": [
+          "kza.org.kp"
+        ],
+        "not_after": "2025-10-28T07:34:44",
+        "not_before": "2025-07-30T07:34:45",
+        "serial": "06865a15eb6692ac0339c8fc5205988a0b03"
+      },
+      {
+        "common_name": "kza.org.kp",
+        "entry_timestamp": null,
+        "id": 20004572073,
+        "issuer": "C=US, O=Let's Encrypt, CN=E5",
+        "names": [
+          "kza.org.kp"
+        ],
+        "not_after": "2025-10-28T07:38:18",
+        "not_before": "2025-07-30T07:38:19",
+        "serial": "0594e43a3bd5c16fd54c1b46d07c6fb479b8"
+      },
+      {
+        "common_name": "kza.org.kp",
+        "entry_timestamp": null,
+        "id": 20004589710,
+        "issuer": "C=US, O=Let's Encrypt, CN=E5",
+        "names": [
+          "kza.org.kp"
+        ],
+        "not_after": "2025-10-28T07:38:18",
+        "not_before": "2025-07-30T07:38:19",
+        "serial": "0594e43a3bd5c16fd54c1b46d07c6fb479b8"
+      },
+      {
+        "common_name": "*.kza.org.kp",
+        "entry_timestamp": null,
+        "id": 20101566950,
+        "issuer": "C=US, O=Let's Encrypt, CN=E5",
+        "names": [
+          "*.kza.org.kp",
+          "kza.org.kp"
+        ],
+        "not_after": "2025-11-02T01:06:23",
+        "not_before": "2025-08-04T01:06:24",
+        "serial": "0671ee793aabce071c20f726a59f3ab9e57d"
+      },
+      {
+        "common_name": "*.kza.org.kp",
+        "entry_timestamp": null,
+        "id": 20101576215,
+        "issuer": "C=US, O=Let's Encrypt, CN=E5",
+        "names": [
+          "*.kza.org.kp",
+          "kza.org.kp"
+        ],
+        "not_after": "2025-11-02T01:06:23",
+        "not_before": "2025-08-04T01:06:24",
+        "serial": "0671ee793aabce071c20f726a59f3ab9e57d"
+      },
+      {
+        "common_name": "*.star.net.kp",
+        "entry_timestamp": null,
+        "id": 20256841115,
+        "issuer": "C=US, O=Let's Encrypt, CN=E6",
+        "names": [
+          "*.star.net.kp",
+          "star.net.kp"
+        ],
+        "not_after": "2025-11-09T01:47:39",
+        "not_before": "2025-08-11T01:47:40",
+        "serial": "0524d0aaca17eb6a0551deff7929c3a1efff"
+      },
+      {
+        "common_name": "*.star.net.kp",
+        "entry_timestamp": null,
+        "id": 20256841119,
+        "issuer": "C=US, O=Let's Encrypt, CN=E6",
+        "names": [
+          "*.star.net.kp",
+          "star.net.kp"
+        ],
+        "not_after": "2025-11-09T01:47:39",
+        "not_before": "2025-08-11T01:47:40",
+        "serial": "0524d0aaca17eb6a0551deff7929c3a1efff"
+      },
+      {
+        "common_name": "kza.org.kp",
+        "entry_timestamp": null,
+        "id": 21190926956,
+        "issuer": "C=US, O=Let's Encrypt, CN=E7",
+        "names": [
+          "*.kza.org.kp",
+          "kza.org.kp"
+        ],
+        "not_after": "2025-12-21T01:13:01",
+        "not_before": "2025-09-22T01:13:02",
+        "serial": "0637454172046460b13bd6ac696fcbd61226"
+      },
+      {
+        "common_name": "kza.org.kp",
+        "entry_timestamp": null,
+        "id": 21190927832,
+        "issuer": "C=US, O=Let's Encrypt, CN=E7",
+        "names": [
+          "*.kza.org.kp",
+          "kza.org.kp"
+        ],
+        "not_after": "2025-12-21T01:13:01",
+        "not_before": "2025-09-22T01:13:02",
+        "serial": "0637454172046460b13bd6ac696fcbd61226"
+      },
+      {
+        "common_name": "*.kza.org.kp",
+        "entry_timestamp": null,
+        "id": 21191382453,
+        "issuer": "C=US, O=Let's Encrypt, CN=E8",
+        "names": [
+          "*.kza.org.kp"
+        ],
+        "not_after": "2025-12-21T01:44:33",
+        "not_before": "2025-09-22T01:44:34",
+        "serial": "055ed0b4ebb0434800716f12b38b3a5e25a8"
+      },
+      {
+        "common_name": "*.kza.org.kp",
+        "entry_timestamp": null,
+        "id": 21191382610,
+        "issuer": "C=US, O=Let's Encrypt, CN=E8",
+        "names": [
+          "*.kza.org.kp"
+        ],
+        "not_after": "2025-12-21T01:44:33",
+        "not_before": "2025-09-22T01:44:34",
+        "serial": "055ed0b4ebb0434800716f12b38b3a5e25a8"
+      },
+      {
+        "common_name": "*.kza.org.kp",
+        "entry_timestamp": null,
+        "id": 21191442450,
+        "issuer": "C=US, O=Let's Encrypt, CN=E8",
+        "names": [
+          "*.kza.org.kp"
+        ],
+        "not_after": "2025-12-21T01:48:44",
+        "not_before": "2025-09-22T01:48:45",
+        "serial": "060d03a666d767faabc6a1044aa49416a3da"
+      },
+      {
+        "common_name": "*.kza.org.kp",
+        "entry_timestamp": null,
+        "id": 21191444476,
+        "issuer": "C=US, O=Let's Encrypt, CN=E8",
+        "names": [
+          "*.kza.org.kp"
+        ],
+        "not_after": "2025-12-21T01:48:44",
+        "not_before": "2025-09-22T01:48:45",
+        "serial": "060d03a666d767faabc6a1044aa49416a3da"
+      },
+      {
+        "common_name": "*.kza.org.kp",
+        "entry_timestamp": null,
+        "id": 25518090189,
+        "issuer": "C=US, O=Let's Encrypt, CN=E8",
+        "names": [
+          "*.kza.org.kp",
+          "kza.org.kp"
+        ],
+        "not_after": "2026-07-13T08:05:26",
+        "not_before": "2026-04-14T08:05:27",
+        "serial": "06683198dcefc5f91b3d89a37f42f6c4ff80"
+      },
+      {
+        "common_name": "*.kza.org.kp",
+        "entry_timestamp": null,
+        "id": 25581525785,
+        "issuer": "C=US, O=Let's Encrypt, CN=E8",
+        "names": [
+          "*.kza.org.kp",
+          "kza.org.kp"
+        ],
+        "not_after": "2026-07-13T08:01:47",
+        "not_before": "2026-04-14T08:01:48",
+        "serial": "054c0fcf30ff2bd7e8e8529c91cfecf516d7"
+      },
+      {
+        "common_name": "*.kza.org.kp",
+        "entry_timestamp": null,
+        "id": 25606040481,
+        "issuer": "C=US, O=Let's Encrypt, CN=E8",
+        "names": [
+          "*.kza.org.kp",
+          "kza.org.kp"
+        ],
+        "not_after": "2026-07-13T08:01:47",
+        "not_before": "2026-04-14T08:01:48",
+        "serial": "054c0fcf30ff2bd7e8e8529c91cfecf516d7"
+      },
+      {
+        "common_name": "*.kza.org.kp",
+        "entry_timestamp": null,
+        "id": 25606146728,
+        "issuer": "C=US, O=Let's Encrypt, CN=E8",
+        "names": [
+          "*.kza.org.kp",
+          "kza.org.kp"
+        ],
+        "not_after": "2026-07-13T08:05:26",
+        "not_before": "2026-04-14T08:05:27",
+        "serial": "06683198dcefc5f91b3d89a37f42f6c4ff80"
+      },
+      {
+        "common_name": "*.kza.org.kp",
+        "entry_timestamp": null,
+        "id": 25694833162,
+        "issuer": "C=US, O=Let's Encrypt, CN=E8",
+        "names": [
+          "*.kza.org.kp",
+          "kza.org.kp"
+        ],
+        "not_after": "2026-07-19T01:11:16",
+        "not_before": "2026-04-20T01:11:17",
+        "serial": "05b603e11cdf2e69a2c774c8f61416e4ee83"
+      },
+      {
+        "common_name": "*.kza.org.kp",
+        "entry_timestamp": null,
+        "id": 25943817272,
+        "issuer": "C=US, O=Let's Encrypt, CN=E8",
+        "names": [
+          "*.kza.org.kp",
+          "kza.org.kp"
+        ],
+        "not_after": "2026-07-19T01:11:16",
+        "not_before": "2026-04-20T01:11:17",
+        "serial": "05b603e11cdf2e69a2c774c8f61416e4ee83"
+      },
+      {
+        "common_name": "smtp.star-co.net.kp",
+        "entry_timestamp": null,
+        "id": 26878575286,
+        "issuer": "C=US, O=Let's Encrypt, CN=YE1",
+        "names": [
+          "smtp.star-co.net.kp"
+        ],
+        "not_after": "2026-09-02T06:42:58",
+        "not_before": "2026-06-04T06:42:59",
+        "serial": "068a70f1df5748e00373fe945c6747d400cf"
+      },
+      {
+        "common_name": "smtp.star-co.net.kp",
+        "entry_timestamp": null,
+        "id": 26878583197,
+        "issuer": "C=US, O=Let's Encrypt, CN=YE1",
+        "names": [
+          "smtp.star-co.net.kp"
+        ],
+        "not_after": "2026-09-02T06:42:58",
+        "not_before": "2026-06-04T06:42:59",
+        "serial": "068a70f1df5748e00373fe945c6747d400cf"
+      }
+    ],
     "queries": {
       "%.aca.kp": {
-        "error": "HTTP 502",
-        "status": "error"
+        "rows": 0,
+        "status": "ok"
       },
       "%.com.kp": {
-        "error": "HTTP 502",
-        "status": "error"
+        "rows": 0,
+        "status": "ok"
       },
       "%.edu.kp": {
-        "error": "HTTP 502",
-        "status": "error"
+        "rows": 0,
+        "status": "ok"
       },
       "%.gov.kp": {
-        "error": "HTTP 502",
-        "status": "error"
+        "rows": 0,
+        "status": "ok"
       },
       "%.law.kp": {
-        "error": "HTTP 502",
-        "status": "error"
+        "rows": 0,
+        "status": "ok"
       },
       "%.net.kp": {
-        "error": "HTTP 502",
-        "status": "error"
+        "rows": 21,
+        "status": "ok"
       },
       "%.org.kp": {
-        "error": "HTTP 502",
-        "status": "error"
+        "rows": 26,
+        "status": "ok"
       },
       "%.rep.kp": {
-        "error": "HTTP 502",
-        "status": "error"
+        "rows": 0,
+        "status": "ok"
       },
       "%.sca.kp": {
-        "error": "HTTP 502",
-        "status": "error"
+        "rows": 0,
+        "status": "ok"
       },
       "%.tra.kp": {
-        "error": "HTTP 502",
-        "status": "error"
+        "rows": 0,
+        "status": "ok"
       }
     },
-    "status": "error"
+    "status": "ok"
   },
   "dns": {
     "domains": {
@@ -167,6 +744,10 @@
       },
       "kp": {
         "records": {
+          "NS": [
+            "ns1.kptc.kp",
+            "ns2.kptc.kp"
+          ],
           "SOA": [
             "ns1.kptc.kp root.kptc.kp 2026102403 28800 86400 1209600 86400"
           ]
@@ -175,15 +756,12 @@
           "seed"
         ],
         "status": "NOERROR",
-        "unanswered": [
-          "A",
-          "MX",
-          "NS"
-        ]
+        "unanswered": []
       },
       "kza.org.kp": {
         "records": {},
         "sources": [
+          "ct",
           "seed"
         ],
         "status": "SERVFAIL",
@@ -225,7 +803,7 @@
         ],
         "status": "NOERROR",
         "unanswered": [
-          "AAAA"
+          "MX"
         ]
       },
       "ns2.kptc.kp": {
@@ -239,39 +817,82 @@
         ],
         "status": "NOERROR",
         "unanswered": [
-          "MX",
-          "SOA"
+          "AAAA",
+          "NS"
         ]
       },
       "portal.net.kp": {
         "records": {
           "A": [
             "175.45.178.170"
+          ]
+        },
+        "sources": [
+          "ct",
+          "seed"
+        ],
+        "status": "NOERROR",
+        "unanswered": [
+          "AAAA",
+          "NS",
+          "SOA"
+        ]
+      },
+      "rodong.rep.kp": {
+        "records": {
+          "A": [
+            "175.45.176.68",
+            "175.45.177.8"
           ],
           "NS": [
-            "ns1.portal.net.kp",
-            "ns2.portal.net.kp"
+            "ns1.rodong.rep.kp",
+            "ns2.rodong.rep.kp"
+          ],
+          "SOA": [
+            "ns1.rodong.rep.kp root.rodong.rep.kp 2012022310 28800 7200 1209600 3600"
           ]
         },
         "sources": [
           "seed"
         ],
         "status": "NOERROR",
-        "unanswered": [
-          "AAAA",
-          "MX",
-          "SOA"
-        ]
+        "unanswered": []
       },
-      "rodong.rep.kp": {
-        "records": {},
+      "smtp.star-co.net.kp": {
+        "records": {
+          "A": [
+            "175.45.178.56"
+          ]
+        },
         "sources": [
-          "seed"
+          "ct"
         ],
         "status": "NOERROR",
         "unanswered": [
+          "MX",
+          "NS"
+        ]
+      },
+      "smtp.star.net.kp": {
+        "records": {},
+        "sources": [
+          "ct"
+        ],
+        "status": "NXDOMAIN",
+        "unanswered": [
           "A",
-          "NS",
+          "AAAA"
+        ]
+      },
+      "sns.star.net.kp": {
+        "records": {},
+        "sources": [
+          "ct"
+        ],
+        "status": "NXDOMAIN",
+        "unanswered": [
+          "A",
+          "MX",
           "SOA"
         ]
       },
@@ -281,16 +902,22 @@
             "10 smtp.star-co.net.kp",
             "20 smtp1.star-co.net.kp",
             "30 mail.star-co.net.kp"
+          ],
+          "NS": [
+            "ns1.star-co.net.kp",
+            "ns2.star-co.net.kp"
+          ],
+          "SOA": [
+            "ns1.star-co.net.kp root.star-co.net.kp 2026110317 28800 7200 1209600 3600"
           ]
         },
         "sources": [
+          "ct",
           "seed"
         ],
         "status": "NOERROR",
         "unanswered": [
-          "A",
-          "NS",
-          "SOA"
+          "AAAA"
         ]
       },
       "star.net.kp": {
@@ -298,14 +925,42 @@
           "NS": [
             "ns1.star.net.kp",
             "ns2.star.net.kp"
+          ],
+          "SOA": [
+            "ns1.star.net.kp root.star.net.kp 2026110317 28800 7200 1209600 3600"
           ]
         },
         "sources": [
+          "ct",
           "seed"
         ],
         "status": "NOERROR",
         "unanswered": [
-          "AAAA",
+          "A",
+          "MX"
+        ]
+      },
+      "webmail.star.net.kp": {
+        "records": {},
+        "sources": [
+          "ct"
+        ],
+        "status": "NOERROR",
+        "unanswered": [
+          "A"
+        ]
+      },
+      "www.portal.net.kp": {
+        "records": {
+          "A": [
+            "175.45.178.170"
+          ]
+        },
+        "sources": [
+          "ct"
+        ],
+        "status": "NOERROR",
+        "unanswered": [
           "SOA"
         ]
       }
@@ -316,18 +971,18 @@
     ],
     "status": "ok"
   },
-  "generated_at": "2026-11-23T12:31:35Z",
+  "generated_at": "2026-11-24T13:39:07Z",
   "schema": 1,
   "summary": {
     "asns": 1,
-    "certs": 0,
+    "certs": 47,
     "certs_unexpired": 0,
-    "domains": 10,
-    "domains_resolving": 5,
+    "domains": 15,
+    "domains_resolving": 8,
     "prefixes_announced": 4,
     "sources": {
       "bgp": "ok",
-      "ct": "error",
+      "ct": "ok",
       "dns": "ok"
     }
   },
