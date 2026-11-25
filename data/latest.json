@@ -45,7 +45,7 @@
         "175.45.176.0/22"
       ],
       "ipv6": [],
-      "query_time": "2026-11-22T00:00:00",
+      "query_time": "2026-11-23T00:00:00",
       "source": "country-resource-list",
       "status": "ok"
     },
@@ -728,10 +728,6 @@
             "175.45.176.71",
             "175.45.177.1"
           ],
-          "NS": [
-            "ns1.kcna.kp",
-            "ns2.kcna.kp"
-          ],
           "SOA": [
             "ns1.kcna.kp root.kcna.kp 2012022310 28800 7200 1209600 3600"
           ]
@@ -740,7 +736,9 @@
           "seed"
         ],
         "status": "NOERROR",
-        "unanswered": []
+        "unanswered": [
+          "NS"
+        ]
       },
       "kp": {
         "records": {
@@ -756,7 +754,9 @@
           "seed"
         ],
         "status": "NOERROR",
-        "unanswered": []
+        "unanswered": [
+          "MX"
+        ]
       },
       "kza.org.kp": {
         "records": {},
@@ -774,21 +774,15 @@
         ]
       },
       "naenara.com.kp": {
-        "records": {
-          "A": [
-            "175.45.176.91"
-          ],
-          "NS": [
-            "ns1.naenara.com.kp",
-            "ns2.naenara.com.kp"
-          ]
-        },
+        "records": {},
         "sources": [
           "seed"
         ],
         "status": "NOERROR",
         "unanswered": [
-          "AAAA",
+          "A",
+          "MX",
+          "NS",
           "SOA"
         ]
       },
@@ -803,28 +797,28 @@
         ],
         "status": "NOERROR",
         "unanswered": [
-          "MX"
+          "NS"
         ]
       },
       "ns2.kptc.kp": {
-        "records": {
-          "A": [
-            "175.45.176.16"
-          ]
-        },
+        "records": {},
         "sources": [
           "seed"
         ],
         "status": "NOERROR",
         "unanswered": [
-          "AAAA",
-          "NS"
+          "A",
+          "MX"
         ]
       },
       "portal.net.kp": {
         "records": {
-          "A": [
-            "175.45.178.170"
+          "NS": [
+            "ns1.portal.net.kp",
+            "ns2.portal.net.kp"
+          ],
+          "SOA": [
+            "ns1.portal.net.kp root.portal.net.kp 2012022301 28800 7200 1209600 3600"
           ]
         },
         "sources": [
@@ -833,9 +827,8 @@
         ],
         "status": "NOERROR",
         "unanswered": [
-          "AAAA",
-          "NS",
-          "SOA"
+          "A",
+          "AAAA"
         ]
       },
       "rodong.rep.kp": {
@@ -843,34 +836,27 @@
           "A": [
             "175.45.176.68",
             "175.45.177.8"
-          ],
-          "NS": [
-            "ns1.rodong.rep.kp",
-            "ns2.rodong.rep.kp"
-          ],
-          "SOA": [
-            "ns1.rodong.rep.kp root.rodong.rep.kp 2012022310 28800 7200 1209600 3600"
           ]
         },
         "sources": [
           "seed"
         ],
         "status": "NOERROR",
-        "unanswered": []
+        "unanswered": [
+          "NS",
+          "SOA"
+        ]
       },
       "smtp.star-co.net.kp": {
-        "records": {
-          "A": [
-            "175.45.178.56"
-          ]
-        },
+        "records": {},
         "sources": [
           "ct"
         ],
         "status": "NOERROR",
         "unanswered": [
-          "MX",
-          "NS"
+          "AAAA",
+          "NS",
+          "SOA"
         ]
       },
       "smtp.star.net.kp": {
@@ -880,8 +866,8 @@
         ],
         "status": "NXDOMAIN",
         "unanswered": [
-          "A",
-          "AAAA"
+          "AAAA",
+          "MX"
         ]
       },
       "sns.star.net.kp": {
@@ -892,23 +878,15 @@
         "status": "NXDOMAIN",
         "unanswered": [
           "A",
-          "MX",
-          "SOA"
+          "AAAA",
+          "MX"
         ]
       },
       "star-co.net.kp": {
         "records": {
-          "MX": [
-            "10 smtp.star-co.net.kp",
-            "20 smtp1.star-co.net.kp",
-            "30 mail.star-co.net.kp"
-          ],
           "NS": [
             "ns1.star-co.net.kp",
             "ns2.star-co.net.kp"
-          ],
-          "SOA": [
-            "ns1.star-co.net.kp root.star-co.net.kp 2026110317 28800 7200 1209600 3600"
           ]
         },
         "sources": [
@@ -917,15 +895,13 @@
         ],
         "status": "NOERROR",
         "unanswered": [
-          "AAAA"
+          "AAAA",
+          "MX",
+          "SOA"
         ]
       },
       "star.net.kp": {
         "records": {
-          "NS": [
-            "ns1.star.net.kp",
-            "ns2.star.net.kp"
-          ],
           "SOA": [
             "ns1.star.net.kp root.star.net.kp 2026110317 28800 7200 1209600 3600"
           ]
@@ -936,8 +912,9 @@
         ],
         "status": "NOERROR",
         "unanswered": [
-          "A",
-          "MX"
+          "AAAA",
+          "MX",
+          "NS"
         ]
       },
       "webmail.star.net.kp": {
@@ -947,20 +924,22 @@
         ],
         "status": "NOERROR",
         "unanswered": [
-          "A"
+          "A",
+          "MX",
+          "NS",
+          "SOA"
         ]
       },
       "www.portal.net.kp": {
-        "records": {
-          "A": [
-            "175.45.178.170"
-          ]
-        },
+        "records": {},
         "sources": [
           "ct"
         ],
         "status": "NOERROR",
         "unanswered": [
+          "A",
+          "MX",
+          "NS",
           "SOA"
         ]
       }
@@ -971,14 +950,14 @@
     ],
     "status": "ok"
   },
-  "generated_at": "2026-11-24T13:39:07Z",
+  "generated_at": "2026-11-25T12:48:37Z",
   "schema": 1,
   "summary": {
     "asns": 1,
     "certs": 47,
     "certs_unexpired": 0,
     "domains": 15,
-    "domains_resolving": 8,
+    "domains_resolving": 3,
     "prefixes_announced": 4,
     "sources": {
       "bgp": "ok",
