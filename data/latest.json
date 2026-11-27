@@ -26,12 +26,12 @@
         "status": "ok",
         "visibility": {
           "v4": {
-            "seeing": 323,
-            "total": 323
+            "seeing": 322,
+            "total": 322
           },
           "v6": {
             "seeing": 0,
-            "total": 313
+            "total": 312
           }
         }
       }
@@ -45,7 +45,7 @@
         "175.45.176.0/22"
       ],
       "ipv6": [],
-      "query_time": "2026-11-24T00:00:00",
+      "query_time": "2026-11-25T00:00:00",
       "source": "country-resource-list",
       "status": "ok"
     },
@@ -57,8 +57,8 @@
         ],
         "status": "ok",
         "visibility": {
-          "seeing": 323,
-          "total": 323
+          "seeing": 322,
+          "total": 322
         }
       },
       "175.45.177.0/24": {
@@ -68,8 +68,8 @@
         ],
         "status": "ok",
         "visibility": {
-          "seeing": 323,
-          "total": 323
+          "seeing": 322,
+          "total": 322
         }
       },
       "175.45.178.0/24": {
@@ -79,8 +79,8 @@
         ],
         "status": "ok",
         "visibility": {
-          "seeing": 323,
-          "total": 323
+          "seeing": 322,
+          "total": 322
         }
       },
       "175.45.179.0/24": {
@@ -90,8 +90,8 @@
         ],
         "status": "ok",
         "visibility": {
-          "seeing": 323,
-          "total": 323
+          "seeing": 322,
+          "total": 322
         }
       }
     },
@@ -682,8 +682,8 @@
         "status": "ok"
       },
       "%.com.kp": {
-        "rows": 0,
-        "status": "ok"
+        "error": "HTTP 502",
+        "status": "error"
       },
       "%.edu.kp": {
         "rows": 0,
@@ -718,12 +718,20 @@
         "status": "ok"
       }
     },
-    "status": "ok"
+    "status": "partial"
   },
   "dns": {
     "domains": {
       "kcna.kp": {
         "records": {
+          "A": [
+            "175.45.176.71",
+            "175.45.177.1"
+          ],
+          "NS": [
+            "ns1.kcna.kp",
+            "ns2.kcna.kp"
+          ],
           "SOA": [
             "ns1.kcna.kp root.kcna.kp 2012022310 28800 7200 1209600 3600"
           ]
@@ -732,11 +740,7 @@
           "seed"
         ],
         "status": "NOERROR",
-        "unanswered": [
-          "A",
-          "AAAA",
-          "NS"
-        ]
+        "unanswered": []
       },
       "kp": {
         "records": {
@@ -774,10 +778,6 @@
           "A": [
             "175.45.176.91"
           ],
-          "NS": [
-            "ns1.naenara.com.kp",
-            "ns2.naenara.com.kp"
-          ],
           "SOA": [
             "ns1.naenara.com.kp root.naenara.com.kp 2012022310 28800 7200 1209600 3600"
           ]
@@ -787,7 +787,7 @@
         ],
         "status": "NOERROR",
         "unanswered": [
-          "MX"
+          "NS"
         ]
       },
       "ns1.kptc.kp": {
@@ -800,7 +800,9 @@
           "seed"
         ],
         "status": "NOERROR",
-        "unanswered": []
+        "unanswered": [
+          "SOA"
+        ]
       },
       "ns2.kptc.kp": {
         "records": {
@@ -813,42 +815,43 @@
         ],
         "status": "NOERROR",
         "unanswered": [
-          "AAAA"
+          "NS",
+          "SOA"
         ]
       },
       "portal.net.kp": {
-        "records": {},
+        "records": {
+          "A": [
+            "175.45.178.170"
+          ],
+          "SOA": [
+            "ns1.portal.net.kp root.portal.net.kp 2012022301 28800 7200 1209600 3600"
+          ]
+        },
         "sources": [
           "ct",
           "seed"
         ],
         "status": "NOERROR",
         "unanswered": [
-          "A",
-          "MX",
-          "NS",
-          "SOA"
+          "NS"
         ]
       },
       "rodong.rep.kp": {
         "records": {
-          "A": [
-            "175.45.176.68",
-            "175.45.177.8"
-          ],
           "NS": [
             "ns1.rodong.rep.kp",
             "ns2.rodong.rep.kp"
-          ],
-          "SOA": [
-            "ns1.rodong.rep.kp root.rodong.rep.kp 2012022310 28800 7200 1209600 3600"
           ]
         },
         "sources": [
           "seed"
         ],
         "status": "NOERROR",
-        "unanswered": []
+        "unanswered": [
+          "A",
+          "SOA"
+        ]
       },
       "smtp.star-co.net.kp": {
         "records": {},
@@ -858,8 +861,8 @@
         "status": "NOERROR",
         "unanswered": [
           "A",
-          "MX",
-          "NS"
+          "AAAA",
+          "SOA"
         ]
       },
       "smtp.star.net.kp": {
@@ -869,8 +872,7 @@
         ],
         "status": "NXDOMAIN",
         "unanswered": [
-          "AAAA",
-          "MX"
+          "A"
         ]
       },
       "sns.star.net.kp": {
@@ -879,11 +881,7 @@
           "ct"
         ],
         "status": "NXDOMAIN",
-        "unanswered": [
-          "A",
-          "AAAA",
-          "MX"
-        ]
+        "unanswered": []
       },
       "star-co.net.kp": {
         "records": {
@@ -895,9 +893,6 @@
           "NS": [
             "ns1.star-co.net.kp",
             "ns2.star-co.net.kp"
-          ],
-          "SOA": [
-            "ns1.star-co.net.kp root.star-co.net.kp 2026112515 28800 7200 1209600 3600"
           ]
         },
         "sources": [
@@ -906,7 +901,7 @@
         ],
         "status": "NOERROR",
         "unanswered": [
-          "A"
+          "SOA"
         ]
       },
       "star.net.kp": {
@@ -936,7 +931,9 @@
           "ct"
         ],
         "status": "NOERROR",
-        "unanswered": []
+        "unanswered": [
+          "AAAA"
+        ]
       },
       "www.portal.net.kp": {
         "records": {
@@ -949,8 +946,7 @@
         ],
         "status": "NOERROR",
         "unanswered": [
-          "MX",
-          "NS"
+          "SOA"
         ]
       }
     },
@@ -960,18 +956,18 @@
     ],
     "status": "ok"
   },
-  "generated_at": "2026-11-26T12:27:20Z",
+  "generated_at": "2026-11-27T12:12:49Z",
   "schema": 1,
   "summary": {
     "asns": 1,
     "certs": 47,
     "certs_unexpired": 0,
     "domains": 15,
-    "domains_resolving": 6,
+    "domains_resolving": 7,
     "prefixes_announced": 4,
     "sources": {
       "bgp": "ok",
-      "ct": "ok",
+      "ct": "partial",
       "dns": "ok"
     }
   },

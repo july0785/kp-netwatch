@@ -7,13 +7,13 @@ Almost nothing about this footprint changes often. According to [Wikipedia](http
 <!-- status:start -->
 | item | value |
 | --- | --- |
-| last run | 2026-11-26 12:27 UTC |
+| last run | 2026-11-27 12:12 UTC |
 | ASNs | 1 |
 | prefixes announced | 4 |
 | certificates in CT | 47 (0 unexpired) |
 | names tracked | 15 |
-| names resolving | 6 |
-| source status | bgp ok, ct ok, dns ok |
+| names resolving | 7 |
+| source status | bgp ok, ct partial, dns ok |
 <!-- status:end -->
 
 ## Method
