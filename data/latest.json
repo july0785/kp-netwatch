@@ -26,12 +26,12 @@
         "status": "ok",
         "visibility": {
           "v4": {
-            "seeing": 322,
-            "total": 322
+            "seeing": 324,
+            "total": 324
           },
           "v6": {
             "seeing": 0,
-            "total": 312
+            "total": 314
           }
         }
       }
@@ -45,7 +45,7 @@
         "175.45.176.0/22"
       ],
       "ipv6": [],
-      "query_time": "2026-11-25T00:00:00",
+      "query_time": "2026-11-26T00:00:00",
       "source": "country-resource-list",
       "status": "ok"
     },
@@ -57,8 +57,8 @@
         ],
         "status": "ok",
         "visibility": {
-          "seeing": 322,
-          "total": 322
+          "seeing": 324,
+          "total": 324
         }
       },
       "175.45.177.0/24": {
@@ -68,8 +68,8 @@
         ],
         "status": "ok",
         "visibility": {
-          "seeing": 322,
-          "total": 322
+          "seeing": 324,
+          "total": 324
         }
       },
       "175.45.178.0/24": {
@@ -79,8 +79,8 @@
         ],
         "status": "ok",
         "visibility": {
-          "seeing": 322,
-          "total": 322
+          "seeing": 324,
+          "total": 324
         }
       },
       "175.45.179.0/24": {
@@ -90,8 +90,8 @@
         ],
         "status": "ok",
         "visibility": {
-          "seeing": 322,
-          "total": 322
+          "seeing": 324,
+          "total": 324
         }
       }
     },
@@ -682,8 +682,8 @@
         "status": "ok"
       },
       "%.com.kp": {
-        "error": "HTTP 502",
-        "status": "error"
+        "rows": 0,
+        "status": "ok"
       },
       "%.edu.kp": {
         "rows": 0,
@@ -718,7 +718,7 @@
         "status": "ok"
       }
     },
-    "status": "partial"
+    "status": "ok"
   },
   "dns": {
     "domains": {
@@ -778,6 +778,10 @@
           "A": [
             "175.45.176.91"
           ],
+          "NS": [
+            "ns1.naenara.com.kp",
+            "ns2.naenara.com.kp"
+          ],
           "SOA": [
             "ns1.naenara.com.kp root.naenara.com.kp 2012022310 28800 7200 1209600 3600"
           ]
@@ -786,22 +790,17 @@
           "seed"
         ],
         "status": "NOERROR",
-        "unanswered": [
-          "NS"
-        ]
+        "unanswered": []
       },
       "ns1.kptc.kp": {
-        "records": {
-          "A": [
-            "175.45.176.15"
-          ]
-        },
+        "records": {},
         "sources": [
           "seed"
         ],
         "status": "NOERROR",
         "unanswered": [
-          "SOA"
+          "A",
+          "AAAA"
         ]
       },
       "ns2.kptc.kp": {
@@ -814,15 +813,16 @@
           "seed"
         ],
         "status": "NOERROR",
-        "unanswered": [
-          "NS",
-          "SOA"
-        ]
+        "unanswered": []
       },
       "portal.net.kp": {
         "records": {
           "A": [
             "175.45.178.170"
+          ],
+          "NS": [
+            "ns1.portal.net.kp",
+            "ns2.portal.net.kp"
           ],
           "SOA": [
             "ns1.portal.net.kp root.portal.net.kp 2012022301 28800 7200 1209600 3600"
@@ -833,25 +833,27 @@
           "seed"
         ],
         "status": "NOERROR",
-        "unanswered": [
-          "NS"
-        ]
+        "unanswered": []
       },
       "rodong.rep.kp": {
         "records": {
+          "A": [
+            "175.45.176.68",
+            "175.45.177.8"
+          ],
           "NS": [
             "ns1.rodong.rep.kp",
             "ns2.rodong.rep.kp"
+          ],
+          "SOA": [
+            "ns1.rodong.rep.kp root.rodong.rep.kp 2012022310 28800 7200 1209600 3600"
           ]
         },
         "sources": [
           "seed"
         ],
         "status": "NOERROR",
-        "unanswered": [
-          "A",
-          "SOA"
-        ]
+        "unanswered": []
       },
       "smtp.star-co.net.kp": {
         "records": {},
@@ -861,8 +863,7 @@
         "status": "NOERROR",
         "unanswered": [
           "A",
-          "AAAA",
-          "SOA"
+          "AAAA"
         ]
       },
       "smtp.star.net.kp": {
@@ -881,7 +882,9 @@
           "ct"
         ],
         "status": "NXDOMAIN",
-        "unanswered": []
+        "unanswered": [
+          "NS"
+        ]
       },
       "star-co.net.kp": {
         "records": {
@@ -889,10 +892,6 @@
             "10 smtp.star-co.net.kp",
             "20 smtp1.star-co.net.kp",
             "30 mail.star-co.net.kp"
-          ],
-          "NS": [
-            "ns1.star-co.net.kp",
-            "ns2.star-co.net.kp"
           ]
         },
         "sources": [
@@ -901,6 +900,7 @@
         ],
         "status": "NOERROR",
         "unanswered": [
+          "NS",
           "SOA"
         ]
       },
@@ -919,7 +919,9 @@
           "seed"
         ],
         "status": "NOERROR",
-        "unanswered": []
+        "unanswered": [
+          "A"
+        ]
       },
       "webmail.star.net.kp": {
         "records": {
@@ -932,7 +934,7 @@
         ],
         "status": "NOERROR",
         "unanswered": [
-          "AAAA"
+          "SOA"
         ]
       },
       "www.portal.net.kp": {
@@ -945,9 +947,7 @@
           "ct"
         ],
         "status": "NOERROR",
-        "unanswered": [
-          "SOA"
-        ]
+        "unanswered": []
       }
     },
     "resolvers": [
@@ -956,7 +956,7 @@
     ],
     "status": "ok"
   },
-  "generated_at": "2026-11-27T12:12:49Z",
+  "generated_at": "2026-11-28T11:41:21Z",
   "schema": 1,
   "summary": {
     "asns": 1,
@@ -967,7 +967,7 @@
     "prefixes_announced": 4,
     "sources": {
       "bgp": "ok",
-      "ct": "partial",
+      "ct": "ok",
       "dns": "ok"
     }
   },
